@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="es-CO">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/img/logo.png" type="image/png" />
+  <title>Taller-3</title>
+
+  <meta name="author" content="Sebastian Monsalve" />
+  <meta name="description" content="pagina web taller 3" />
+  <meta name="keywords" content="Taller 3 bootstrap" />
+
+  <meta name="theme-color" content="#1f4ea8" />
+  <meta name="MobileOptimized" content="width" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <!--bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!--Bootstrap Icons cdn-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top shadow-sm" role="navigation"
+        aria-label="Navegación principal">
+        <div class="container">
+          <a class="navbar-brand fw-semibold" href="../index.html" aria-label="Taller 3 — Inicio">
+            <span class="badge bg-dark me-1 rounded-2" aria-hidden="true">Luma</span>
+          </a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+            aria-controls="navMenu" aria-expanded="false" aria-label="Abrir menú de navegación">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav mx-auto gap-1" role="menubar">
+              <li class="nav-item" role="none"><a class="nav-link px-3 rounded-pill" href="../index.html#inicio"
+                  role="menuitem">Inicio</a></li>
+              <li class="nav-item dropdown" role="none">
+                <a class="nav-link dropdown-toggle px-3 rounded-pill" href="../index.html#servicios" role="menuitem"
+                  data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                <ul class="dropdown-menu rounded-3 shadow-sm border-0">
+                  <li><a class="dropdown-item" href="../index.html#servicios">Diseño Digital</a></li>
+                  <li><a class="dropdown-item" href="../index.html#servicios">Desarrollo Web</a></li>
+                  <li><a class="dropdown-item" href="../index.html#servicios">Estrategia</a></li>
+                </ul>
+              </li>
+              <li class="nav-item" role="none"><a class="nav-link px-3 rounded-pill" href="../index.html#equipo"
+                  role="menuitem">Equipo</a></li>
+              <li class="nav-item" role="none"><a class="nav-link px-3 rounded-pill" href="../index.html#precios"
+                  role="menuitem">Precios</a></li>
+              <li class="nav-item" role="none"><a class="nav-link px-3 rounded-pill" href="../index.html#faq"
+                  role="menuitem">Preguntas frecuentes</a></li>
+              <li class="nav-item" role="none"><a class="nav-link px-3 rounded-pill" href="./app/forms.html"
+                  role="menuitem">forms</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+   <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>LUMA | Banca Digital Inteligente</title>
+
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body class="bg-light">
+
+<!-- ========================= -->
+<!-- NAVBAR -->
+<!-- ========================= -->
+
+<nav class="navbar navbar-expand-lg  text-bg-light border-bottom sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold fs-3 text-primary" href="#">
+            <i class="bi bi-bank2 me-2"></i>LUMA
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#inicio">Inicio</a>
+                </li>
+
+                <li class="nav-item dropdown">
+
+                    <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        data-bs-toggle="dropdown">
+
+                        Productos
+                    </a>
+
+                    <div class="dropdown-menu border-0 shadow-lg p-4">
+
+                        <div class="container">
+
+                            <div class="row g-4">
+
+                                <div class="col-lg-4">
+
+                                    <h6 class="fw-bold text-primary">
+                                        Personas
+                                    </h6>
+
+                                    <a class="dropdown-item py-2" href="#">
+                                        <i class="bi bi-wallet2 me-2"></i>
+                                        Cuenta Digital
+                                    </a>
+
+                                    <a class="dropdown-item py-2" href="#">
+                                        <i class="bi bi-credit-card me-2"></i>
+                                        Tarjeta Premium
+                                    </a>
+
+                                    <a class="dropdown-item py-2" href="#">
+                                        <i class="bi bi-piggy-bank me-2"></i>
+                                        Ahorros
+                                    </a>
+
+                                </div>
+
+                                <div class="col-lg-4">
+
+                                    <h6 class="fw-bold text-success">
+                                        Inversiones
+                                    </h6>
+
+                                    <a class="dropdown-item py-2" href="#">
+                                        <i class="bi bi-graph-up me-2"></i>
+                                        Fondos
+                                    </a>
+
+                                    <a class="dropdown-item py-2" href="#">
+                                        <i class="bi bi-bar-chart me-2"></i>
+                                        Portafolios
+                                    </a>
+
+                                    <a class="dropdown-item py-2" href="#">
+                                        <i class="bi bi-currency-dollar me-2"></i>
+                                        Wealth Management
+                                    </a>
+
+                                </div>
+
+                                <div class="col-lg-4">
+
+                                    <div class="card border-0 bg-primary text-white">
+
+                                        <div class="card-body">
+
+                                            <h5>
+                                                LUMA Black
+                                            </h5>
+
+                                            <p class="small">
+                                                Beneficios exclusivos para clientes premium.
+                                            </p>
+
+                                            <button class="btn btn-light btn-sm">
+                                                Conocer más
+                                            </button>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./app/tables.html">
+                        Tablas
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">
+                        Contacto
+                    </a>
+                </li>
+
+                <li class="nav-item ms-lg-3">
+                    <a href="./app/github.html" class="btn btn-dark rounded-pill px-4">
+                       github
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</nav>
+
+<!-- ========================= -->
+<!-- HERO -->
+<!-- ========================= -->
+
+<section id="inicio" class="bg-white py-5">
+
+    <div class="container py-5">
+
+        <div class="row align-items-center g-5">
+
+            <div class="col-lg-6">
+
+                <span class="badge bg-primary-subtle text-primary mb-3">
+                    Fintech #1 en Latinoamérica
+                </span>
+
+                <h1 class="display-2 fw-bold">
+                    El dinero debería trabajar para ti.
+                </h1>
+
+                <p class="lead text-secondary my-4">
+
+                    Administra, invierte y transfiere desde una sola plataforma moderna,
+                    segura y diseñada para crecer contigo.
+
+                </p>
+
+                <div class="d-flex gap-3 flex-wrap">
+
+                    <button class="btn btn-primary btn-lg px-4 rounded-pill">
+                        Crear cuenta
+                    </button>
+
+                    <button class="btn btn-outline-primary btn-lg px-4 rounded-pill">
+                        Ver demo
+                    </button>
+
+                </div>
+
+                <div class="row mt-5">
+
+                    <div class="col-4">
+                        <h3 class="fw-bold">500K+</h3>
+                        <small class="text-secondary">
+                            Clientes
+                        </small>
+                    </div>
+
+                    <div class="col-4">
+                        <h3 class="fw-bold">$1.2B</h3>
+                        <small class="text-secondary">
+                            Transacciones
+                        </small>
+                    </div>
+
+                    <div class="col-4">
+                        <h3 class="fw-bold">35</h3>
+                        <small class="text-secondary">
+                            Países
+                        </small>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-6">
+
+                <div class="card border-0 shadow-lg">
+
+                    <div class="card-header bg-white border-0">
+
+                        <div class="d-flex justify-content-between">
+
+                            <span class="fw-bold">
+                                Dashboard Financiero
+                            </span>
+
+                            <span class="badge bg-success">
+                                Activo
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                    <div class="card-body">
+
+                        <h6 class="text-secondary">
+                            Balance Total
+                        </h6>
+
+                        <h1 class="fw-bold">
+                            $82,450
+                        </h1>
+
+                        <div class="progress mb-4">
+                            <div class="progress-bar bg-success w-75"></div>
+                        </div>
+
+                        <div class="row g-3">
+
+                            <div class="col-6">
+
+                                <div class="card bg-primary text-white border-0">
+
+                                    <div class="card-body">
+
+                                        <i class="bi bi-arrow-down-circle fs-3"></i>
+
+                                        <h5 class="mt-3">
+                                            Ingresos
+                                        </h5>
+
+                                        <h3>
+                                            $14,200
+                                        </h3>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                            <div class="col-6">
+
+                                <div class="card bg-success text-white border-0">
+
+                                    <div class="card-body">
+
+                                        <i class="bi bi-graph-up-arrow fs-3"></i>
+
+                                        <h5 class="mt-3">
+                                            Inversión
+                                        </h5>
+
+                                        <h3>
+                                            +12.8%
+                                        </h3>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- CLIENTES -->
+<!-- ========================= -->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <p class="text-secondary text-uppercase">
+                Empresas que confían en nosotros
+            </p>
+
+        </div>
+
+        <div class="row text-center g-4">
+
+            <div class="col">Microsoft</div>
+            <div class="col">Amazon</div>
+            <div class="col">Google</div>
+            <div class="col">Oracle</div>
+            <div class="col">SAP</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- BENEFICIOS -->
+<!-- ========================= -->
+
+<section id="beneficios" class="py-5 bg-white">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="display-5 fw-bold">
+                Diseñado para la nueva generación
+            </h2>
+
+            <p class="text-secondary">
+                Más control, más velocidad y menos complicaciones.
+            </p>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow-sm h-100">
+
+                    <div class="card-body p-4">
+
+                        <div class="text-primary mb-3">
+                            <i class="bi bi-shield-check fs-1"></i>
+                        </div>
+
+                        <h4>
+                            Seguridad avanzada
+                        </h4>
+
+                        <p class="text-secondary">
+                            Protección multicapa y monitoreo constante.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow-sm h-100">
+
+                    <div class="card-body p-4">
+
+                        <div class="text-success mb-3">
+                            <i class="bi bi-lightning-charge fs-1"></i>
+                        </div>
+
+                        <h4>
+                            Transferencias instantáneas
+                        </h4>
+
+                        <p class="text-secondary">
+                            Envía y recibe dinero en segundos.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow-sm h-100">
+
+                    <div class="card-body p-4">
+
+                        <div class="text-info mb-3">
+                            <i class="bi bi-phone fs-1"></i>
+                        </div>
+
+                        <h4>
+                            100% Digital
+                        </h4>
+
+                        <p class="text-secondary">
+                            Todo desde tu celular o navegador.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- PRODUCTOS -->
+<!-- ========================= -->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="display-5 fw-bold">
+                Productos financieros
+            </h2>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-3">
+
+                <div class="card h-100 border-0 shadow-sm">
+
+                    <div class="card-body">
+
+                        <i class="bi bi-wallet2 text-primary fs-1"></i>
+
+                        <h5 class="mt-3">
+                            Cuenta Digital
+                        </h5>
+
+                        <p class="text-secondary">
+                            Sin costos ocultos.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3">
+
+                <div class="card h-100 border-0 shadow-sm">
+
+                    <div class="card-body">
+
+                        <i class="bi bi-credit-card text-success fs-1"></i>
+
+                        <h5 class="mt-3">
+                            Tarjeta Black
+                        </h5>
+
+                        <p class="text-secondary">
+                            Beneficios globales.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3">
+
+                <div class="card h-100 border-0 shadow-sm">
+
+                    <div class="card-body">
+
+                        <i class="bi bi-graph-up text-info fs-1"></i>
+
+                        <h5 class="mt-3">
+                            Inversiones
+                        </h5>
+
+                        <p class="text-secondary">
+                            Automatizadas y seguras.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-3">
+
+                <div class="card h-100 border-0 shadow-sm">
+
+                    <div class="card-body">
+
+                        <i class="bi bi-building text-primary fs-1"></i>
+
+                        <h5 class="mt-3">
+                            Empresas
+                        </h5>
+
+                        <p class="text-secondary">
+                            Gestión financiera avanzada.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- TESTIMONIOS -->
+<!-- ========================= -->
+
+<section class="py-5 bg-white">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+
+            <h2 class="display-5 fw-bold">
+                Miles de usuarios felices
+            </h2>
+
+        </div>
+
+        <div class="row g-4">
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow-sm h-100">
+
+                    <div class="card-body">
+
+                        <i class="bi bi-quote text-primary fs-2"></i>
+
+                        <p>
+                            La mejor experiencia financiera digital que he usado.
+                        </p>
+
+                        <strong>
+                            Carlos Ramírez
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow-sm h-100">
+
+                    <div class="card-body">
+
+                        <i class="bi bi-quote text-primary fs-2"></i>
+
+                        <p>
+                            Invertir nunca había sido tan sencillo.
+                        </p>
+
+                        <strong>
+                            Ana Torres
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="card border-0 shadow-sm h-100">
+
+                    <div class="card-body">
+
+                        <i class="bi bi-quote text-primary fs-2"></i>
+
+                        <p>
+                            Toda nuestra operación financiera corre con LUMA.
+                        </p>
+
+                        <strong>
+                            Grupo Nova
+                        </strong>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- CTA -->
+<!-- ========================= -->
+
+<section class="py-5 bg-primary text-white">
+
+    <div class="container text-center">
+
+        <h2 class="display-5 fw-bold">
+            Empieza hoy mismo
+        </h2>
+
+        <p class="lead">
+            Abre tu cuenta en menos de 5 minutos.
+        </p>
+
+        <button class="btn btn-light btn-lg rounded-pill px-5">
+            Crear cuenta gratis
+        </button>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- CONTACTO -->
+<!-- ========================= -->
+
+<section id="contacto" class="py-5 bg-white">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8">
+
+                <div class="card border-0 shadow">
+
+                    <div class="card-body p-5">
+
+                        <h2 class="text-center fw-bold mb-4">
+                            Solicita una demostración
+                        </h2>
+
+                        <div class="row g-3">
+
+                            <div class="col-md-6">
+                                <input type="text" class="form-control form-control-lg" placeholder="Nombre">
+                            </div>
+
+                            <div class="col-md-6">
+                                <input type="email" class="form-control form-control-lg" placeholder="Correo">
+                            </div>
+
+                            <div class="col-12">
+                                <input type="text" class="form-control form-control-lg" placeholder="Empresa">
+                            </div>
+
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="Mensaje"></textarea>
+                            </div>
+
+                            <div class="col-12">
+                                <button class="btn btn-primary btn-lg w-100">
+                                    Enviar solicitud
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ========================= -->
+<!-- FOOTER -->
+<!-- ========================= -->
+
+<footer class="bg-dark text-white py-5">
+
+    <div class="container">
+
+        <div class="row g-5">
+
+            <div class="col-lg-4">
+
+                <h4 class="fw-bold">
+                    LUMA
+                </h4>
+
+                <p class="text-light">
+                    La nueva generación de banca digital.
+                </p>
+
+            </div>
+
+            <div class="col-lg-2">
+
+                <h6>
+                    Empresa
+                </h6>
+
+                <ul class="list-unstyled">
+                    <li>Nosotros</li>
+                    <li>Blog</li>
+                    <li>Prensa</li>
+                </ul>
+
+            </div>
+
+            <div class="col-lg-2">
+
+                <h6>
+                    Productos
+                </h6>
+
+                <ul class="list-unstyled">
+                    <li>Cuentas</li>
+                    <li>Tarjetas</li>
+                    <li>Inversiones</li>
+                </ul>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <h6>
+                    Newsletter
+                </h6>
+
+                <div class="input-group">
+
+                    <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Correo electrónico">
+
+                    <button class="btn btn-primary">
+                        Suscribirse
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+            ©️ 2026 LUMA. Todos los derechos reservados.
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
+    <footer class="bg-dark text-white text-center p-3">
+      <p>THomas Cano Taller 3 bootstrap. Todos los derechos reservados&copy; 2026.</p>
+    </footer>
+  </div>
+
+  <!--Bootstrap JS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
